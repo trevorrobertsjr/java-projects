@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+jar {
+archiveBaseName = 'webclient'
+archiveVersion = '0.1.0'
+manifest {
+        attributes 'Main-Class': 'webclient.WebClient'
+    }
+}
+
+
+
+mainClassName = 'webclient.WebClient'
